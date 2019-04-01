@@ -10,14 +10,14 @@ react v16.8.6
 ## Operations  
 
 * Create User  
-* ```POST - https://reqres.in/api/user```  
+** ```POST - https://reqres.in/api/user``` <i>The created user will not be add in Read User</i>  
 * Read User  
-* ```GET  - https://reqres.in/api/user```  
-* ```GET  - https://reqres.in/api/unknown/{user_id}```  
+** ```GET  - https://reqres.in/api/user```  
+** ```GET  - https://reqres.in/api/unknown/{user_id}```  
 * Update User
-* ```POST - https://reqres.in/api/user/{user_id}```      
+** ```POST - https://reqres.in/api/user/{user_id}```      
 * Delete User
-* ```GET  - https://reqres.in/api/users/{user_id}``` 
+** ```GET  - https://reqres.in/api/users/{user_id}``` <i>Sadly the Delete method returns 204</i>  
   
 Documentation for API  [REQ | RES](https://reqres.in/)  
 
